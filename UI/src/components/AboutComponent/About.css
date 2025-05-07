@@ -1,0 +1,77 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 69px;
+    background-color: whitesmoke;
+    height: 550px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+.about .left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: flex-start;
+    width: 520px;
+    align-items: flex-start;
+}
+
+.about .left .heading {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: black;
+}
+
+.about .left .point {
+    padding-left: 20px;
+    display: flex;
+    line-height: 25px;
+    color: black;
+}
+
+.about .left .heading span {
+    color: greenyellow;
+}
+
+.about .right img {
+    height: 430px;
+    width: 430px;
+    align-items: center;
+    box-shadow: -14px -15px 3px 4px #a3a1a147;
+    border-radius: 15px;
+}
+
+.about .left .btn {
+    display: flex;
+    column-gap: 15px;
+}
+
+.about .left .btn .btn1 {
+    padding: 17px 30px;
+    border-radius: 7px;
+    border: none;
+    background: #5c5c5c;
+    color: gold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.about .left .btn .btn2 {
+    padding: 17px 30px;
+    border-radius: 7px;
+    border: none;
+    background: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.about .left .btn .btn1:hover {
+    box-shadow: #5c5c5c 0px 7px 20px 0px;
+}
+
+.about .left .btn .btn2:hover {
+    box-shadow: white 0px 7px 20px 0px;
+}

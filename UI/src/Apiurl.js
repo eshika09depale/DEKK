@@ -1,0 +1,1 @@
+export const __userapiurl="http://localhost:3005/user/";

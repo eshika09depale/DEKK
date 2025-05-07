@@ -1,0 +1,101 @@
+.features-section {
+  background-color: var(--pale-green);
+  position: relative;
+  padding: 80px 0;
+}
+
+.feature-card {
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+  width: 70px;
+  height: 70px;
+  background-color: var(--pale-green);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.feature-icon i {
+  font-size: 2rem;
+  color: var(--primary-green);
+}
+
+.feature-card h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: var(--dark-green);
+}
+/* Call to Action Section */
+.cta-section {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.cta-container {
+  background-color: var(--light-green);
+  border-radius: 10px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-container::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.cta-container::after {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  right: -50px;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.cta-container h2 {
+  font-weight: 700;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.cta-container .btn {
+  background-color: white;
+  color: var(--primary-green);
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+
+.cta-container .btn:hover {
+  background-color: var(--dark-green);
+  color: white;
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}

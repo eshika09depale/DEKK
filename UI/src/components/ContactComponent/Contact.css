@@ -1,0 +1,158 @@
+.foot-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  height: 550px;
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.foot-sec .main-box {
+  display: flex;
+  column-gap: 130px;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.foot-sec .main-box .box1 h1 {
+  color: white;
+}
+
+.foot-sec .main-box .box1 .social {
+  display: flex;
+  column-gap: 20px;
+}
+
+.foot-sec .main-box .box1 i {
+  color: black;
+  font-size: 20px;
+  background: greenyellow;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.foot-sec .main-box .box2 h1 {
+  color: white;
+}
+
+.foot-sec .main-box .box2 i {
+  color: white;
+}
+
+.foot-sec .main-box .box1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot-sec .main-box .box2 .btn {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  padding-top: 20px;
+}
+
+.foot-sec .main-box .box2 .btn a {
+  text-decoration: none;
+  color: rgb(141, 137, 137);
+}
+
+.foot-sec .main-box .box4 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.foot-sec .main-box .box4 .add {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.foot-sec .main-box .box4 h1 {
+  color: white;
+}
+
+.foot-sec .main-box .box4 .add p {
+  color: rgb(141, 137, 137);
+}
+
+.foot-sec .copy {
+  margin-top: 57px;
+  /* background: red; */
+  width: 100%;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: -30px;
+}
+
+.foot-sec .copy p{
+  color: white;
+}
+
+.foot-sec .copy p span{
+  color: greenyellow;
+}
+h6,
+.font-weight-medium {
+  font-weight: 500 !important;
+}
+
+.btn {
+  font-family: 'Jost', sans-serif;
+  font-weight: 600;
+  transition: .5s;
+}
+
+.btn-primary,
+.btn-secondary {
+  color: #FFFFFF;
+}
+
+.btn-primary:hover {
+  background: var(--secondary);
+  border-color: var(--secondary);
+}
+
+.btn-secondary:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-square {
+  width: 36px;
+  height: 36px;
+}
+
+.btn-sm-square {
+  width: 28px;
+  height: 28px;
+}
+
+.btn-lg-square {
+  width: 46px;
+  height: 46px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+#spinner {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s ease-out, visibility 0s linear .5s;
+  z-index: 99999;
+}
+
